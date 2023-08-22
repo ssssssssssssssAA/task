@@ -1,0 +1,23 @@
+
+
+    .btn-purple {
+        background-color: #5433eb;
+        color: white;
+        border-radius: 50px;
+        padding: 10px 24px;
+        font-size: 18px;
+        position: relative;
+        overflow: hidden;
+        border: none;
+    }
+
+    .btn-oval {
+        clip-path: ellipse(100% 50%);
+    }
+
+    .heart {
+        position: absolute;
+        left: 10px;
+        top: 50%;
+        transform: translateY(-50%);
+    }
